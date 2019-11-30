@@ -3,7 +3,7 @@
   "Author": "Kabi-chan",
   "Version": "1.5.0",
   "Description": "Unofficial conversion of Aracco's Genderswapped Alex.",
-  "UniqueID": "kabi-chan.UnofficialAlex",
+  "UniqueID": "kabi-chan.GenderswapAlex",
   "MinimumApiVersion": "2.11.2",
   "UpdateKeys": [  ],
   "ContentPackFor": {

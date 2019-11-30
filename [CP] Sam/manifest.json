@@ -3,7 +3,7 @@
   "Author": "Kabi-chan",
   "Version": "1.5.0",
   "Description": "Unofficial conversion of Aracco's Genderswapped Sam.",
-  "UniqueID": "kabi-chan.UnofficialSam",
+  "UniqueID": "kabi-chan.GenderswapSam",
   "MinimumApiVersion": "2.11.2",
   "UpdateKeys": [  ],
   "ContentPackFor": {
