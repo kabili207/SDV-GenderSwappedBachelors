@@ -1,0 +1,39 @@
+{
+   "Format": "1.9",
+   "Changes": [
+      {
+         "Action": "Load",
+         "Target": "Portraits/Sam",
+         "FromFile": "assets/Portraits/Sam.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Sam",
+         "FromFile": "assets/Characters/Sam_long.png"
+      },
+	  {
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"Entries": {
+			"Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam 'daughter' Vincent 'son' Kent 'husband'/SamHouse 4 5/Jodi",
+			"Sam": "teen/neutral/outgoing/positive/female/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/Sam",
+			"Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi 'wife' Sam 'daughter' Vincent 'young_boy'/SamHouse 22 5/Kent"
+		}
+	  },
+	  {
+		"Action": "EditData",
+		"Target": "Data/EngagementDialog",
+		"Entries": {
+			"Sam0": "I'm going to be really happy as your wife, @.$l#$e#I'm excited."
+		}
+	  },
+	  {
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueSam",
+		"Entries": {
+			"Rainy_Day_1": "Do you think Sabrina and Abigail will ever hook up?#$e#Heh... now that I'm married I'm trying to get everyone else married too.",
+			"TwoKids_3": "I never thought I'd become such a family woman, but I'm really satisfied with what we've built here. Life is going great.$l"
+		}
+	  }
+   ]
+}
