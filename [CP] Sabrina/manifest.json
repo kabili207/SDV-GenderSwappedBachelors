@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Genderswapped Bachelors - Sabrina",
+  "Author": "Kabi-chan",
+  "Version": "1.5.0",
+  "Description": "Unofficial conversion of Aracco's Genderswapped Sebastian.",
+  "UniqueID": "kabi-chan.UnofficialSabrina",
+  "MinimumApiVersion": "2.11.2",
+  "UpdateKeys": [  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,195 @@
+{
+	"Format": "1.9",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/Sebastian.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Sebastian",
+			"FromFile": "assets/Characters/Sebastian.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/LooseSprites/Cursors_405_1854.png",
+			"ToArea": { "X": 405, "Y": 1854, "Width": 48, "Height": 33 },
+			"PatchMode": "Replace"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius 'husband' Maru 'daughter' Sebastian 'daughter'/ScienceHouse 21 4/Robin",
+				"Sebastian": "teen/rude/shy/negative/female/datable/Abigail/Town/winter 10/Robin 'mom' Maru 'half-sister' Sam ''/SebastianRoom 10 9/Sabrina"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Festivals/fall16",
+			"Entries": {
+				"Sam_spouse": "Sabrina's the same as always. Are you having fun at the festival?"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Events/Beach",
+			"Entries": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": "ocean/-1000 -1000/farmer 40 9 2 Sam 41 18 2 Vincent 43 22 2/skippable/animate Vincent false true 500 18 19/specificTemporarySprite beachStuff/viewport 42 19 true/move farmer 0 9 1/faceDirection Sam 3/speak Sam \"Hello @. Nice day, isn't it?\"/faceDirection farmer 2/faceDirection Sam 2/pause 800/speak Sam \"I'm just keeping an eye on my little brother. It's good for him to get some fresh air on a day like this.\"/pause 1700/speak Sam \"Our Dad used to take us to the beach on sunny days like this.$h\"/jump Vincent/stopAnimation Vincent/showFrame Vincent 0/pause 1000/move Vincent 0 -4 3/move Vincent -1 0 3/faceDirection Sam 1/faceDirection farmer 1/playMusic desolate/speak Vincent \"Sam...?$u\"/pause 900/speak Vincent \"Is Dad ever going to come home?$s\"/emote Sam 28/showFrame Sam 34/pause 800/speak Sam \"Of course, Vince. Dad's going to come back as soon as he possibly can.$7\"/pause 600/speak Vincent \"But I heard some grown-ups saying that... that all of our troops are getting shot to pieces.$s\"/showFrame Sam 35/pause 1500/speak Sam \"Don't believe everything you hear!$8\"/showFrame Sam 4/speak Sam \"Don't you remember how strong Dad is? He'd never let a pathetic Gotoro grunt get him like that! Don't you worry!$a#$b#And always remember that Mom and I are here to play with you if you ever feel lonely.\"/playMusic ocean/speak Vincent \"Okay!\"/jump Vincent/pause 1000/move Vincent 1 0 2/showFrame Sam 4 true/faceDirection Sam 2 true/move Vincent 0 4 2/animate Vincent false true 500 18 19/playSound sandyStep/pause 800/faceDirection Sam 3/pause 800/faceDirection Sam 2/faceDirection farmer 2/pause 1000/speak Sam \"To be honest, I have no idea if my old man will come back... We've all read the reports. Our soldiers are falling by the thousands.$s#$b#But what am I going to say to Vincent?$7\"/pause 1000/question null \"#It's best to be honest with kids.#You did the right thing. Kids should have hope.\"/emote Sam 40/pause 1000/splitSpeak Sam \"You think so?$7#$b#Maybe you're right... The world is a cruel place, but kids have to learn that one way or another.$s~Yeah... kids should play and have fun while they still have the chance.\"/pause 700/faceDirection Sam 3/faceDirection farmer 1/speak Sam \"Hey did I tell you the band's starting to come together?#$b#Yeah! It turns out Abigail's a pretty good drummer. And Sabrina seemed to really want her in the band...$h\"/pause 500/globalFade/viewport -1000 -1000/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Events/Mountain",
+			"Entries": {
+				"384882/f Sebastian 2500/t 2000 2400": "nightTime/-1000 -1000/farmer 18 35 0 Sebastian -100 -100 0/skippable/specificTemporarySprite sebastianOnBike/viewport 17 28/pause 1000/move farmer 0 -5 0/speak Sebastian \"Hey @. I was just about to head out.#$b#Hop on...I wanna show you something.\"/pause 1000/move farmer 0 -1 0/move farmer 1 0 0 true/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/pause 8000/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Sebastian 16 18/positionOffset farmer 0 16/playMusic spaceMusic/viewport 15 14 true/pause 10000/faceDirection Sebastian 3/speak Sebastian \"That's Zuzu City in the distance...\"/pause 600/faceDirection Sebastian 0/speak Sebastian \"I come here when I want to get away from everything and just... think.\"/pause 1000/faceDirection Sebastian 1/pause 600/animate Sebastian false true 110 16 17 18 19 20 21 21 21 21 21 21 21 21 22 23 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/pause 1000/faceDirection farmer 1/pause 1800/faceDirection farmer 0/pause 800/speak Sebastian \"$q -1 null#So, what do you think?#$r -1 0 event_city1#It's beautiful.#$r -1 10 event_city2#It gives me a strange, sad feeling.#$r -1 -10 event_city3#Kind of ugly.#$r -1 0 event_city4#You should quit smoking.\"/stopAnimation Sebastian/pause 600/faceDirection Sebastian 0/pause 3000/speak Sebastian \"The city used to draw me in... but now I'm finding myself happier at home in the valley.\"/pause 500/pause 900/speak Sebastian \"@...?$s#$b#I don't usually bring guys to this place... In fact, you're the only one.$l^Um... I've never... felt anything like this with another girl before... But you're different.$l#$b#You know what I'm trying to say, don't you?$l\"/pause 700/faceDirection farmer 1/emote Sebastian 40/pause 800/faceDirection Sebastian 3/pause 2000/showFrame Sebastian 40/pause 600/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 18 26"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Events/SebastianRoom",
+			"Entries": {
+				"Necromancer": "pause 500/updateMinigame 6/resetVariable/playMusic Lava_Ambient/pause 1600/message \"Xarth: Intruders? How dare you tresspass in my private chambers!\"/pause 800/message \"Ah, so you've come for the Solarion Staff...\"/pause 800/message \"Hehehe... fools. You'll make a nice addition to my skeleton army!\"/pause 500/fork choseWizard finalBossWizard/fork choseWarrior finalBossWarrior/message \"Dreadlord Xarth casts shadow beam!\"/pause 500/playSound flameSpell/pause 800/playSound flameSpellHit/updateMinigame -1/pause 1000/message \"You were able to dodge the spell, but your companions are gravely injured!\"/pause 500/question fork0 \"What do you do?#Heal the Warrior (Sam).#Heal the Wizard (Sabrina).\"/pause 500/fork healedSam/playSound healSound/pause 500/speak Sebastian \"Thanks, @.$7\"/speak Sam \"...$s\"/pause 1000/playMusic none/message \"Sabrina casts 'Pure Bolt'... A beam of white light hits Xarth square in the face. The Dreadlord shrieks and crumbles into dust.\"/playSound debuffSpell/pause 500/playSound killAnimal/updateMinigame 9/updateMinigame -1/pause 800/message \"You pick up the Solarion Staff and hold it high. Order has been restored to the world.\"/addMailReceived savedFriends/pause 1000/playSound getNewSpecialItem/updateMinigame -2/switchEvent end",
+				"finalBossWizard": "pause 500/resetVariable/message \"Dreadlord Xarth is muttering an incantation...\"/pause 500/question fork0 \"What do you do?#Cast 'Pure Beam' at Xarth.#Put a 'Shield Charm' on your friends.\"/fork castBeam/pause 800/playSound debuffHit/message \"You place a 'Shield Charm' on Sam and Sabrina.\"/pause 500/playSound debuffSpell/updateMinigame -1/pause 1000/message \"Xarth sends bolts of pure dark energy flying. One of them strikes Sabrina, but your 'Shield Charm' reflects it back into Xarth's face!\"/pause 800/playSound killAnimal/updateMinigame 9/updateMinigame -1/pause 800/message \"Xarth is defeated, and the Solarion Staff glows peacefully. Order has been restored to the world.\"/pause 1000/playSound getNewSpecialItem/addMailReceived savedFriends/updateMinigame -2/switchEvent end",
+				"castBeam": "pause 500/message \"Before you have a chance to cast your spell, Xarth sends a shadow beam at your companions!\"/pause 500/playSound flameSpell/pause 500/playSound flameSpellHit/updateMinigame -1/pause 800/message \"Sam and Sabrina are fried to a crisp...\"/pause 500/playSound yoba/pause 800/message \"Your spell hits Xarth square in the face.\"/pause 500/playSound killAnimal/updateMinigame 9/updateMinigame -1/message \"He lets out a shriek and crumbles into dust. You pick up the Solarion Staff and hold it high. Peace and order have been restored to the world.\"/pause 1000/playSound getNewSpecialItem/updateMinigame -2/switchEvent end",
+				"chargeAhead": "pause 500/message \"You charge forward, but Xarth slips past you an sends a shadow beam at your companions!\"/pause 500/playSound flameSpell/pause 500/playSound flameSpellHit/updateMinigame -1/pause 800/message \"Sabrina and Sam are fried to a crisp...\"/pause 800/message \"You swing your sword again and land a solid blow. Xarth shrieks and crumbles into dust.\"/playSound swordswipe/pause 400/playSound killAnimal/updateMinigame 9/updateMinigame -1/pause 800/message \"You pick up the Solarion Staff and hold it high. Peace and order have been restored to the world.\"/pause 1000/playSound getNewSpecialItem/updateMinigame -2/switchEvent end",
+				"finalBossWarrior": "pause 500/resetVariable/message \"Dreadlord Xarth is muttering an incantation...\"/pause 500/question fork0 \"What do you do?#Charge ahead, swinging your sword.#Use your shield to defend your friends.\"/fork chargeAhead/pause 1200/message \"Xarth casts 'Shadow Bolt' at Sabrina... but you raise your shield just in time to deflect the attack!\"/pause 500/playSound debuffSpell/pause 400/playSound parry/updateMinigame -1/pause 1000/message \"As Xarth prepares another spell, you charge forward and strike him down with your sword.\"/playSound swordswipe/pause 500/playSound killAnimal/updateMinigame 9/updateMinigame -1/pause 1000/message \"The Solarion Staff glows peacefully as you hold it high. Order has been restored to the world!\"/pause 1000/playSound getNewSpecialItem/addMailReceived savedFriends/updateMinigame -2/switchEvent end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Events/SamHouse",
+			"Entries": {
+				"44/f Sam 500/p Sam": "sampractice/-1000 -1000/farmer 4 15 1 Sam 17 16 2 Sebastian 18 18 0/positionOffset Sebastian 32 -32/skippable/animate Sam false true 200 20 21/showFrame Sebastian 41/viewport 17 16 true/move farmer 8 0 0/pause 500/doAction 12 14/move farmer 0 -2 1/move farmer 4 0 2/pause 9000/stopAnimation Sam/showFrame Sebastian 8/pause 1000/faceDirection Sam 0/pause 800/speak Sam \"Oh, hi @! Sabrina and I were just having a little 'jam session'.\"/move farmer 0 3 1/faceDirection Sam 3/faceDirection Sebastian 3/speak Sam \"We're trying to start a band, but we still don't know what kind of music to make. There's too many possibilities.\"/pause 500/emote Sebastian 28/faceDirection Sam 2/pause 500/emote Sam 16/faceDirection Sam 3/speak Sam \"#$q 76 null#Say, @... what kind of music do you like?#$r 76 50 Event_band1#Cheerful pop music.#$r 77 50 Event_band1#Experimental noise rock.#$r 78 50 Event_band1#Hi-Energy dance music.#$r 79 50 Event_band1#Honky-tonky country music.\"/move Sam 0 2 1/speak Sam \"What do you say, Sabrina? Should we do this?\"/pause 300/faceDirection Sebastian 0/pause 300/faceDirection Sebastian 3/speak Sebastian \"...Okay.\"/pause 500/faceDirection Sam 0/move Sam 0 -2 3/speak Sam \"Thanks for the help, @. With my guitar skills, and Sabrina's wizardry on the synthesizer, we're gonna be a screaming success. I'm convinced of it!$h\"/faceDirection Sam 2/speak Sam \"Now I just need to find someone to play drums...$u\"/pause 500/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"Mon4": "I'm getting an urge to visit the lake by Sabrina's house...#$b#...but it's only at its best when it's raining.",
+				"Thu2": "Sabrina's basically my best friend. I don't know what I'd do without her.#$e#We pretty much grew up together.",
+				"summer_Fri2": "Sebastian's a few years older than I am, but she's one of the few people who actually gets me.",
+				"fall_Tue2": "Sabrina's basically my best friend. I don't know what I'd do without her.#$e#We pretty much grew up together.",
+				"fall_Thu4": "Sebastian's a few years older than I am, but he's one of the few people who actually gets me.#$e#Well, and you and Sam sort of do, too.$h"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"winter_Sat": "There's some weird people living in this town.#$e#...like that girl Sabrina. Why does she wear black all the time?#$e#I don't get it.",
+				"winter_Sat4": "There's some weird people living in this town.#$e#...like that girl Sabrina. Why does she wear black all the time?#$e#I don't get it."
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+				"Sun6": "For Sabrina, I left most of the parenting to Robin.#$e#Even today, it's usually best to stay out of her way and let Robin handle things with her.",
+				"Sun8": "Sabrina always seems bored by just about every aspect of my work.$s#$e#Computer science is a science, though. I've always tried to bond with her over that, but there's still a bit of a divide between us.#$e#The books I've read say that's to be expected.",
+				"Sun10": "Between you and me, I really thought that Sabrina would have moved out by now.$s#$e#She's even older than I was when I first met Robin...$s#$e#As long as she works and pays her rent, though...",
+				"Sun_inlaw_Sebastian": "It's such a relief that Sabrina's finally moved out. I did always think you were a good match for her.$h"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"Fri4": "Sam tries so hard at billiards, but Sabrina wins each time they play.#$e#Sam must be a really good sport about it, because they've been at it week after week!$h"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"summer_Tue": "Sabrina is my half-sister, if you didn't know already.#$e#We look totally different.",
+				"summer_Tue4": "Sabrina hardly ever talks to me. I wonder if she even likes me at all?#$e#It's sad, I want to have a sister but she doesn't act like one.",
+				"summer_Tue4_inlaw_Sebastian": "Heyyy, brother-in-law!$h^Heyyy, sister-in-law!$h#$e#Sabrina seems so much happier now that she doesn't have to live here. I hope things are well!",
+				"summer_Wed2": "Ick, it's incredibly hot. I bet Sabrina's room is really cool right now by comparison.#$e#I wouldn't know for sure, though. I rarely actually go down there.",
+				"summer_Fri4": "Dad and I sometimes go out for ice cream. Sabrina used to come too, but she doesn't anymore.",
+				"fall_Mon_inlaw_Sebastian": "Oh, hey @! How's my sister doing?",
+				"fall_Fri8": "Artificial intelligence is really fascinating. I'm not quite as good at programming as Sabrina is...#$b#...but there are some preset AI modules that I've tried altering myself.#$e#Even some basic emotion algorithms should be possible, but of course I keep it relatively rudimentary.",
+				"winter_Thu4": "I hope Sabrina's okay. I feel like she barely sees the sun during the winter. It's not healthy.$s",
+				"winter_Thu6": "I tried asking Sabrina if I could join her and Sam the next time he comes over, but she looked really unenthusiastic.$s#$e#I mean, I'd understand if I did something wrong, but honestly, why does she single me out like that?$a",
+				"winter_Thu8": "I let Sabrina do her own thing these days. I think she just wants to be left alone.#$e#It sucks. I've tried all these years to be a good sister, but I don't think she'll ever stop pushing me away.$s#$e#Well, not every sibling relationship winds up perfect.$s",
+				"winter_Thu4_inlaw_Sebastian": "I did a voicechat with Sabrina this morning. Now that she's moved out, it's a lot easier to get along with her.#$b#Isn't it funny how that works?$h"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"Wed8": "Sabrina's father? He was a good guy. Things just didn't work out.#$e#We were both very young.",
+				"Thu2": "Have you tried reaching out to Sabrina yet?",
+				"Fri": "You've met my daughter Sabrina, right? She lives downstairs.#$e#She's a little shy, but I'm sure she'll warm up to you if you're nice to her.",
+				"Fri_inlaw_Sebastian": "I miss my Sabby... he was always a little misunderstood, but I believed in her.",
+				"Fri2": "Sam comes over occasionally to play games with Sabrina. Maybe they'll invite you join them sometime.",
+				"Fri4_inlaw_Sebastian": "Sabrina told me she's trying to quit smoking! I'm really proud of her.",
+				"Thu6": "I met Demetrius in college while working an apprenticeship and raising Sabrina.#$e#My head still spins when I wonder how we managed to find time for it all!",
+				"Thu8": "Sometimes, I wonder if Sabrina passively resents me for not having her father around.$s#$e#Maybe she feels like Maru's got it all, and she lives in her shadow...$s",
+				"Sat4": "Ugh, I wish Sabrina wouldn't smoke.$s#$e#I don't even know where she picked that up from.$s",
+				"summer_Fri_inlaw_Sebastian": "Has Sabrina been getting outside much lately?#$e#Make sure you two take good care of each other!$h",
+				"winter_15": "I thought we might head down as a family to that Night Market on one of these nights.#$e#I don't know if I can get Sabrina to go, though...",
+				"winter_15_2": "I thought we might head down as a family to that Night Market on one of these nights.#$e#I don't know if I can get Sabrina to go, though..."
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"Wed6": "I've been friends with Sabrina for a while. She's a pretty cool girl.#$e#If you two weren't around I wouldn't really have any friends in town.",
+				"summer_Thu4": "Sabrina has some pretty cool board games.#$b#A long time ago, I wasn't into board games, but she knows how to make them fun.$h",
+				"fall_Mon6": "Band practice went awesome last week. Abby and Sabrina have been putting in a lot of hard work.",
+				"winter_Sat6": "After we moved here, Penny and I grew up together. Now she's my little brother's teacher. How does that even happen?#$e#Maybe it's high time I actually get a move on my life. Sabrina's got the right idea.#$e#You do, too, for that matter."
+			}
+		},
+		{
+			"LogName": "Year 2 Festival Egg Festival - spring13.xnb",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13.xnb",
+			"Entries": {
+				"Abigail": "Sam? Sabrina? Did you guys even try last year?"
+			}
+		},
+		{
+			"LogName": "Year 2 Festival Ice Festival - winter8.xnb",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8.xnb",
+			"Entries": {
+				"Maru": "Sabrina makes some pretty cool snowmen. I feel like I could learn a thing or two from her, if she'd let me."
+			}
+		},
+		{
+			"LogName": "Year 3 Festival Moonlight Jellies - summer28.xnb",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28.xnb",
+			"Entries":
+			{
+				"Sam": "I wonder if they're poisonous?#$e#Maybe I shouldn't push Sabrina in the water after all...$h"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Entries": {
+				"Outdoor_3": "I don't want to get soft now that I'm a married girl. Maybe I should start eating more hot pepper and working out?#$e#Just an idea...$h",
+				"OneKid_0": "I'm still getting used to being a mother. Don't worry, I'll take good care of %kid1! It's just... something new.",
+				"Good_3": "I don't often show it, but I'm really happy that I'm your wife. Marrying you was the best decision I ever made.$l"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": {
+				"Rainy_Day_1": "Do you think Sabrina and Abigail will ever hook up?#$e#Heh... now that I'm married I'm trying to get everyone else married too.#Sabrina's a few years older than me. I never expected I'd beat her to the punch with tying the knot.",
+				"Indoor_Day_4": "#$c .5#Maybe Sabrina's going to be online later. I just kinda feel like playing video games today.#Um... Maybe I'll help out on the farm some other day. I feel lazy today.$s#$e#You're not mad?",
+				"spring_8": "Sabrina lent me a big ol' stack of her comics. That pretty much carves out my reading for the next month.$h",
+				"spring_12": "Are you excited for tomorrow's festival? It'll be cool to see Sabrina again.",
+				"fall_4": "This is Abby's favorite season, right? I bet she's enjoying herself.#$e#I noticed, whenever she's in a good mood, Sabrina seems to be pretty happy, too."
+			}
+		}
+	]
+}
